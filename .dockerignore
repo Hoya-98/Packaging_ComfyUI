@@ -1,0 +1,45 @@
+# Exclude large directories
+models/
+input/
+output/
+custom_nodes/
+
+# Exclude git directory
+.git/
+
+# Exclude various cache and temporary files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Exclude version control files
+.git
+.gitignore
+.gitattributes
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Docker related
+Dockerfile
+docker-compose.yml 

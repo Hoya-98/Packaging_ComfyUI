@@ -12,6 +12,9 @@ import utils.extra_config
 import logging
 import sys
 
+# 의존성 자동 설치 비활성화
+os.environ['COMFYUI_DISABLE_AUTO_INSTALL'] = '1'
+
 if __name__ == "__main__":
     #NOTE: These do not do anything on core ComfyUI which should already have no communication with the internet, they are for custom nodes.
     os.environ['HF_HUB_DISABLE_TELEMETRY'] = '1'
